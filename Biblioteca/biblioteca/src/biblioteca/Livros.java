@@ -1,6 +1,7 @@
 package biblioteca;
 
 public class Livros {
+    private Classificacao tipo;
     private String capa;
     private String nome_livro;
     private String nome_autor;
@@ -66,7 +67,13 @@ public class Livros {
     public void setAno_publicado(int ano_publicado) {
         this.ano_publicado = ano_publicado;
     }
+    public Classificacao getTipo() {
+        return this.tipo;
+    }
 
+    public void setTipo(Classificacao tipo) {
+        this.tipo = tipo;
+    }
 }
 
     
