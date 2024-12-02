@@ -21,8 +21,6 @@ public class App {
          String data_pegoulivro = input.nextLine();
          System.out.println("Digite a data que foi devolvido:");
          String data_devolucao = input.nextLine();
-         System.out.println("Digite o nome do leitor");
-          String nome_leitor = input.nextLine();
          System.out.println("Digite a sua opiniao sobre o livro");
           String feedback = input.nextLine();
         System.out.println("Digite o nome do leitor:");
@@ -41,7 +39,7 @@ public class App {
         System.out.println("O ano que foi publicado:"+ano_publicado);
         System.out.println("A data que o livro foi pego:"+data_pegoulivro);
         System.out.println("A data que o livro foi devolvido:"+data_devolucao);
-        System.out.println("O nome do leitor:"+nome_leitor);
+      
         System.out.println("Opiniao sobre o livro:"+feedback);
          System.out.println("O genero literáro:"+nome);
         System.out.println("O genero literáro:"+email);
