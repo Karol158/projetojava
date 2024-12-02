@@ -3,7 +3,7 @@ package biblioteca;
 public class Registro extends Livros {
     private String data_pegoulivro;
     private String data_devolucao;
-  
+     private Dadosleitor leitor;
     
     
      public Registro(String capa, String nome_livro, String nome_autor, int ano_escrito, 
@@ -30,5 +30,10 @@ public class Registro extends Livros {
     public void setData_devolucao(String data_devolucao) {
         this.data_devolucao = data_devolucao;
     }
-
+ public Dadosleitor getDadosleitor(){
+        return leitor;
+     }
+     public void setDadosleitor(Dadosleitor leitor){
+        this.leitor=leitor;
+     }
 }
